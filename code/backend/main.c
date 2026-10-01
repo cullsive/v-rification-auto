@@ -6,7 +6,7 @@ int main(void){
 int nb_main = 6;
 cullsive cull[nb_main];
 
-srand((unsigned)time(NULL) + getpid());
+srand(time(NULL) + getpid());
 
 cull[0].nb = 0;   // min
 cull[1].nb = 250; // max
@@ -30,7 +30,7 @@ while (1) //ou //cull[5].nb < 10 ou plus ou moin comme 5
     {
         printf("\n--- LECTURE APRES %d TOURS ---\n", cull[5].nb);
         lire(Dossie, Fiche_tout);
-        printf("--- FIN LECTURE ---\n\n");
+        printf("\n--- FIN LECTURE ---\n\n");
     }
 
     sleep(1);
