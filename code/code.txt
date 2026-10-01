@@ -1,0 +1,15 @@
+GT1 - vérification d'une suite logique de nombre généré 
+
+G1 - génération dune suite de nombre aléatoire valider ou non_valider
+
+G2 - insertion dans un fiche tout.txt chaque ligne du fiche tout.txt contien une suit de nombre dispose comme cela EX : ( 77 36 25 : (ou) 12 85 120 : )
+
+G3 - réintégration des nombre généré dans le code
+
+G4 - vérification auto de la validation de chaque ligne de nombre génére
+
+G5 - après insertion des nombre en fonction de validité de la suite de nombre ligne par ligne  
+
+G5 - dans un fiche valider.txt ou non_valider.txt selon la validité de la ligne de nombre : ligne par ligne  jusqu'à la dernière ligne du fiche tout.txt
+
+G6 - ...................................................................... fonction CULL .....................................................................
