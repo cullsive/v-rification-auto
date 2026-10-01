@@ -23,6 +23,7 @@ if(!fiche){
     return; 
 }
 
+    //D1
 
 fprintf(fiche,"%d %d %d : \n",*EntiZ1 ,*EntiZ2,*EntiZ3); 
 printf(Mr"LT+ \033[0;m:\033[0;36m %d %d %d\n"COLOR_END,*EntiZ1 ,*EntiZ2,*EntiZ3);
@@ -56,7 +57,8 @@ if(!fiche){
     return; 
 }
 
-
+//D2
+    
 fprintf(fiche,"{ %d , %d , %d }\n",*EntiZ1 ,*EntiZ2,*EntiZ3); 
 fclose(fiche); 
 
@@ -80,6 +82,8 @@ void lire(const char* dossiT , const char* ficheT)
         exit(1);
     }
 
+    //D3
+
     FILE* fiche = fopen(ficheT , "r");
     if(!fiche){
         printf("non valider_lire");
@@ -87,7 +91,7 @@ void lire(const char* dossiT , const char* ficheT)
         return;
     }
 
-    // 🔥 Aller à la dernière position connue
+    // Aller à la dernière position connue
     fseek(fiche, position_lecture, SEEK_SET);
 
     char ligne[1024];
@@ -105,7 +109,7 @@ void lire(const char* dossiT , const char* ficheT)
         sleep(1);
     }
 
-    // 🔥 Sauvegarder la nouvelle position
+    // Sauvegarder la nouvelle position
     position_lecture = ftell(fiche);
 
     fclose(fiche);
