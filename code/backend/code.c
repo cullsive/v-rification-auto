@@ -72,7 +72,7 @@ closedir(dossie);
 
 
 
-long position_lecture = 0;   // position dans le fichier
+long position_lecture = 0;   // position dans le fichier abs_vrb
 
 void lire(const char* dossiT , const char* ficheT)
 {
